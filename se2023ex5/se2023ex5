@@ -3,5 +3,6 @@ int main(void){
     for(i=3; i>0; i--){
         printf("CountDown : %d", i);
     }
+    printf("finish");
     return 0;
 }
