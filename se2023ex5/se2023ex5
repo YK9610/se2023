@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void){
-    for(i=5; i>0; i--){
-        printf("CountDown : %d", i);
+    for(i=0; i<5; i++){
+        printf("CountUp : %d", i);
     }
     printf("finish");
     return 0;
